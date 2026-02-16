@@ -66,7 +66,7 @@
   "interval": 1
 },
   "custom/arch": {
-    "format": "󰣇",
+    "format": "",
     "on-click": "pkill waybar; waybar &",
     "tooltip":false
   },
@@ -132,7 +132,7 @@
 "pulseaudio": {
 	"format": "{icon} {volume:2}%",
 	"format-bluetooth": "{icon}  {volume}%",
-	"format-muted": "MUTE",
+	"format-muted": "󰝟 {volume}",
 	"format-icons": {
 		"headphones": "",
 		"default": [
