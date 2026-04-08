@@ -29,6 +29,7 @@ window#waybar {
 	color: #6c71c4;
 	background: #1a1a1a;
 	padding: 0 8px;
+  min-width: 10px;
 }
 
 #workspaces,
@@ -38,11 +39,16 @@ window#waybar {
 #clock.3,
 #pulseaudio,
 #memory,
-#cpu,
 #battery,
 #disk {
 	background: #1a1a1a;
 }
+
+#cpu {
+	background: #1a1a1a;
+  min-width: 10px;
+}
+
 
 
 #tray {
@@ -50,10 +56,10 @@ window#waybar {
 }
 
 #workspaces button {
-	padding: 0 2px;
+	padding: 0 0px;
 	color: #268bd2;
 	padding-top: 2px;
-	padding-left: 4px;
+	padding-left: 0px;
 }
 #workspaces button.active {
 	color: #fdf6e3;
