@@ -1,6 +1,6 @@
 * {
-	font-size: 14px;
-	font-family: DejaVu Sans Mono;
+	font-size: 16px;
+	font-family: "UbuntuMono Nerd Font Mono", "UbuntuMono Nerd Font Propo", sans-serif;
 	font-weight: 700;
 	padding: 0 0px;
 }
@@ -23,6 +23,7 @@ window#waybar {
   color: #1793d1;
   padding: 2px;
   padding-right: 8px;
+  font-size: 16px;
 }
 
 #custom-gpu-usage {
@@ -57,21 +58,20 @@ window#waybar {
 
 #workspaces button {
 	padding: 0 0px;
+  margin: 0;
+  min-width: 0px;
 	color: #268bd2;
 	padding-top: 2px;
-	padding-left: 0px;
+	padding-bottom: 2px;
+	padding-left: 6px;
+	padding-right: 6px;
 }
 #workspaces button.active {
 	color: #fdf6e3;
 }
 #workspaces button:hover {
-	box-shadow: inherit;
-	text-shadow: inherit;
 }
 #workspaces button:hover {
-	background: #1a1a1a;
-	border: #1a1a1a;
-	padding: 0 3px;
 }
 
 #pulseaudio {
@@ -98,4 +98,11 @@ window#waybar {
 #disk {
 	padding: 0 8px;
 	padding-top: 2px;
+}
+#taskbar button {
+  padding: 0;
+  padding-left: 4;
+  padding-right: 4;
+	margin: 0;
+	min-width: 0;
 }
